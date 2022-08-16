@@ -1,0 +1,1155 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"AcGiRequestScanLines::mEntityColor\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Autodesk/ObjectARX_for_AutoCAD_2022_Win_64bit_dlm/inc/acgi.h"
+                },
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 5,
+                  "endLine": 98,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AcGiRequestScanLines::{ctor}",
+                  "decoratedName": "??0AcGiRequestScanLines@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "AcGiRequestScanLines::mEntityColor"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"AcGiRequestScanLines::mTransparentColor\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Autodesk/ObjectARX_for_AutoCAD_2022_Win_64bit_dlm/inc/acgi.h"
+                },
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 5,
+                  "endLine": 98,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AcGiRequestScanLines::{ctor}",
+                  "decoratedName": "??0AcGiRequestScanLines@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "AcGiRequestScanLines::mTransparentColor"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"AcGiRequestScanLines::mNumRows\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Autodesk/ObjectARX_for_AutoCAD_2022_Win_64bit_dlm/inc/acgi.h"
+                },
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 5,
+                  "endLine": 98,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AcGiRequestScanLines::{ctor}",
+                  "decoratedName": "??0AcGiRequestScanLines@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "AcGiRequestScanLines::mNumRows"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"AcGiRequestScanLines::mBackgroundColor\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Autodesk/ObjectARX_for_AutoCAD_2022_Win_64bit_dlm/inc/acgi.h"
+                },
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 5,
+                  "endLine": 98,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AcGiRequestScanLines::{ctor}",
+                  "decoratedName": "??0AcGiRequestScanLines@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "AcGiRequestScanLines::mBackgroundColor"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Autodesk/ObjectARX_for_AutoCAD_2022_Win_64bit_dlm/inc/acgi.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e985a06b701f171cdfb5ac7558624c0e8513bfc5a3fe40015a8c2fd40376dd91"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/samples/graphics/traits_dg/traits.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "30feb96550b1ac88dde7eca3b77f9643167f725ea04f6202b88a0367cb640876"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/aced.h"
+          },
+          "hashes": {
+            "sha-256": "0d09db56f020d108e050a9f1f1293e10079be7feaf11393885e93a1257089d5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/adesk.h"
+          },
+          "hashes": {
+            "sha-256": "80b4e6f316e258e60f8bbd849d037067822a0191af4128a6ff49f43c9e9c4d2d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/adachar.h"
+          },
+          "hashes": {
+            "sha-256": "da15768059aa51601a37bfb333c70d94c6bc130dfc2b3b9b91402851f170f6d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acadapidef.h"
+          },
+          "hashes": {
+            "sha-256": "3b13eddc147ae5fc96983effafe6a3b3868f758c002bd7c6f58d339b04eb01ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/rxevent.h"
+          },
+          "hashes": {
+            "sha-256": "f4f3adff8a169ffa5be93754d161b1071bdcd1a744f99194a557daf9f238afaf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acarray.h"
+          },
+          "hashes": {
+            "sha-256": "13871ca8ec73b53f7170f63544b640b0f163c7d7eceedfa6e778d27e3151c520"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/pal/api/c11_annex_k.h"
+          },
+          "hashes": {
+            "sha-256": "4687b10e0b4f5d3203f9ee871faaf80e677ea934cdd18513002a69e757964b41"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acarrayhelper.h"
+          },
+          "hashes": {
+            "sha-256": "a661c72fb1b7118691119bfd6c15e62bf70edf56a34339381913ff7228cdf50b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/rxobject.h"
+          },
+          "hashes": {
+            "sha-256": "170cee7ff0219f09a67120878f99ee89b346e2d9d8a4090631cd8f1d2bb35ee6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acbasedefs.h"
+          },
+          "hashes": {
+            "sha-256": "487d125dd3d0850a97dcf484278ecded3ecf05fa4d0826c935a73c2300319100"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/rxdefs.h"
+          },
+          "hashes": {
+            "sha-256": "e41078077b925f987f4a6311a6a3d63de418da6e4b77f4fdee2ec87deb2f9e1f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/rxboiler.h"
+          },
+          "hashes": {
+            "sha-256": "364ec03d5837e42df34ef407236a4e4f8db7c5d1775b56d165bb0d42cdfb46f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/rxnames.h"
+          },
+          "hashes": {
+            "sha-256": "da70b78a54e795b387c97ae99dfcd7274ea0343852c2807699e2292f0f7d94a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acadstrc.h"
+          },
+          "hashes": {
+            "sha-256": "28339873c92ad88778e4f852ac668b4af714653459e8d7d7752c51c724153efe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acdbport.h"
+          },
+          "hashes": {
+            "sha-256": "ffe7fd3e00c20927a384e2bd733d6d2fe10d1fcef1133a48144741d9a43c9877"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acdbcore2ddefs.h"
+          },
+          "hashes": {
+            "sha-256": "bc4c89de115fdf2f1c55afe68ec7b3b3ddb404febadfe2ee97ac38e0b517ba2c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/rxclass.h"
+          },
+          "hashes": {
+            "sha-256": "c6dd7e9af9fb569428ac23adcad635382b6457bf648b27a4055147535c9ba34a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/rxdict.h"
+          },
+          "hashes": {
+            "sha-256": "a9d138e6453458e73ceef7cf682c822eccfeb97f00795d0a8c41c42bb30ac8e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbid.h"
+          },
+          "hashes": {
+            "sha-256": "ca6acdd51c3462665c4590595ca22b155c49206395c748b693bd1f2fcb3d11c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbhandle.h"
+          },
+          "hashes": {
+            "sha-256": "023fa00a29a3a805a9510bd860ed9d7882e4b9d8fb28efc84eb94589672551d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/ads.h"
+          },
+          "hashes": {
+            "sha-256": "eb99ea426b13c2f76c36e7606859fc7c4af04dfad01224621fb93be1d85e60a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/ads_db.h"
+          },
+          "hashes": {
+            "sha-256": "7c8805237d96038661c60cb849e7f382aff27488a2e79d10fb4f6c222651fbf1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/adsmigr.h"
+          },
+          "hashes": {
+            "sha-256": "ce4b56e53a3b1924fe58fcd7cea737bd38abcda40a59a851684eb67d7ff8dcea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acdbads.h"
+          },
+          "hashes": {
+            "sha-256": "a536085e886d90934ac5dfa95e8e4b05cbf2376bacc7739dc6ffd709aff2cf46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/adsdef.h"
+          },
+          "hashes": {
+            "sha-256": "8f0539cbae0277f9e9aeaa7099de9819c703fd138b054d840daecad7c3d41cd7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acmem.h"
+          },
+          "hashes": {
+            "sha-256": "bcec3d8ae13781e26a9f6cf9d9a74db039dca9bb85a01b329c0de06991c00831"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acutads.h"
+          },
+          "hashes": {
+            "sha-256": "d7cbf69680d849e50d90be79fc2011c318acaa15fa79045ddfa385d7358cbd8b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acedads.h"
+          },
+          "hashes": {
+            "sha-256": "ea83d4dc22c287fcf186d52f25b46a76bef29d6369055651bec8db03855c5cdd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/accoredefs.h"
+          },
+          "hashes": {
+            "sha-256": "6c860570d549e98fcf615c07146719c59003543b4152f743b321dd86a95c2855"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acstring.h"
+          },
+          "hashes": {
+            "sha-256": "1fe078fd9d6f35b75874d49dcd84dd139da08ab0fc9ea59771b1670917a32007"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acheapopers.h"
+          },
+          "hashes": {
+            "sha-256": "98f0a658ee9c3069e1fdac5207dce3b6eac70828b10a016b1466a16a7f96c0a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acheapmanager.h"
+          },
+          "hashes": {
+            "sha-256": "c3a81f17ac0b76f155c2cb952d96450ced3b635cb04612c907aec43abc5cfc56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/pal/api/heap.h"
+          },
+          "hashes": {
+            "sha-256": "f8a8de3a6bbe6c307bb733a6f1b7fbf2f162a541016573420009d5132debc45f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/pal/api/def.h"
+          },
+          "hashes": {
+            "sha-256": "42b133af8b2f69dd09ce1e6aa4c1a6264604f8bf1710b381a2f9563608836cf3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/rxresource.h"
+          },
+          "hashes": {
+            "sha-256": "0c3761a0fc78c547c8f31926ad6b37ab5476c8eec2696d91a55738522edb5c4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/pimplapi.h"
+          },
+          "hashes": {
+            "sha-256": "dc8b016e604b451c5ed3df78cc41b04da7930d7344d79c0bb0bb22106c85df1c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acutmem.h"
+          },
+          "hashes": {
+            "sha-256": "abd076a28badf504e552b19f69978e511661f1c9b960a52136884e5dd25d44b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/aced-xref.h"
+          },
+          "hashes": {
+            "sha-256": "b68cc5c8e04188760e44444a32638c24770f2e23e21681ce486476ccc912b736"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/accmd.h"
+          },
+          "hashes": {
+            "sha-256": "a330ed8dbea9b0d10a158fb3e09509139a613c2a399d973b121a62c2e8086105"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/accmd-defs.h"
+          },
+          "hashes": {
+            "sha-256": "c1a025af215af0b7de16b260bf520a2b0a5a488360ca54b649201706e136287a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbmain.h"
+          },
+          "hashes": {
+            "sha-256": "31e44a76e1258dc264aac456c3d446b1bf2d27623596f8cc999fe246bc356643"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gepnt2d.h"
+          },
+          "hashes": {
+            "sha-256": "99e4d36b9c2202606944616b6b75999628ff67855d7e4dc5ee661ae08e7f0f40"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gevec2d.h"
+          },
+          "hashes": {
+            "sha-256": "a1c7bb01029ea8de5a43d14f7435af52c834a7fe3d961395cb499c18b665f20c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gegbl.h"
+          },
+          "hashes": {
+            "sha-256": "c1484a834608c30cbc7f61a335e8141a97eb41f869b41b783b5227fb847e9f2a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gedll.h"
+          },
+          "hashes": {
+            "sha-256": "f02d42a9740a6b204ccc31c179741cd5cff24bf15fcb02577a5f38bffdd3eae4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/getol.h"
+          },
+          "hashes": {
+            "sha-256": "c9bfad4b63b38ec8079f67266f90f71f08fd52b927fe31906533a8b693c9cce2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gedblar.h"
+          },
+          "hashes": {
+            "sha-256": "e3fd11041ebc44b456c63656faa9617c6ea4e76d6e38836f77e34011d17250fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gegblge.h"
+          },
+          "hashes": {
+            "sha-256": "0eabb3d6ce086196cd0eb1fcb7d4ff8b0983d3adab6b5a85d476d050681ef505"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gelibver.h"
+          },
+          "hashes": {
+            "sha-256": "c3c252f35e5f8d5428bb0e1dbfceef2e06ea003e92b4c6db7aca9c12610ba005"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gegblabb.h"
+          },
+          "hashes": {
+            "sha-256": "b1c98288b77460c53a62a31dca09900ba58a0be47d8baa2ffb507b88d8542baf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gepnt3d.h"
+          },
+          "hashes": {
+            "sha-256": "0e83205f17bb9c28121f61eeb18f592fa2f9fc87e5483a610c7f7e0def5364bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gevec3d.h"
+          },
+          "hashes": {
+            "sha-256": "cefd148450c3aeb458304d52ddaf40cbbc19d6cbda2696765bd7117b5bdb5d2f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/rxdlinkr.h"
+          },
+          "hashes": {
+            "sha-256": "616f70de74c66cbb057fb3b132204227fa090e91e1118792a83b0a64a0b95aec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/rxiter.h"
+          },
+          "hashes": {
+            "sha-256": "b9c4dce1817c3bc4ea3c301f4f531d47cc6b77d25d8822aa070b81c060aaf8e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/rxditer.h"
+          },
+          "hashes": {
+            "sha-256": "a2f97a526b3d73abc2e52797dd59c39b7a1fb922cedc9565fe9a75b348e26bcd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/rxsrvice.h"
+          },
+          "hashes": {
+            "sha-256": "2612f7846515cb20e7853e5a483631ff4ea922bdb3a484da07ebee63832ea5cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbboiler.h"
+          },
+          "hashes": {
+            "sha-256": "1c2d71670076a167ca367a7a7d20d068f4dc06661aa3bb29145a8ddf166abee4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbptrar.h"
+          },
+          "hashes": {
+            "sha-256": "e5dea80b6ed5aee1532b29de7201c92cb837db19c174fb7b1b808277fbe0e468"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbcolor.h"
+          },
+          "hashes": {
+            "sha-256": "e23dc511feeba0f5d77c5f35f3f953799754333e562ab3514af6a31b7645e127"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbidar.h"
+          },
+          "hashes": {
+            "sha-256": "b77c1c0262035c20177fa76a7051bed9ae5b62d12763a60b58f2a294d25ec7f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/drawable.h"
+          },
+          "hashes": {
+            "sha-256": "8cc7ceb2586a50ae3947c1aeeea9046826d3cbc47699c5529e08af8cabe5d3a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/rxoverrule.h"
+          },
+          "hashes": {
+            "sha-256": "c1d41d557af97c6064d5480f9f90801c7cd891fdce454d69b8f130a6e4ae4ddf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbsecurity.h"
+          },
+          "hashes": {
+            "sha-256": "0395dc26d00d9a07c3102b7105389ab699d287be24a0f8cc9e1aed0d3ea3b2dc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acdb.h"
+          },
+          "hashes": {
+            "sha-256": "49cf43fb23784a579bb33d45ea0a660d7b02cfdf93e9f0df2eb4058e2d0bb2a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbfiler.h"
+          },
+          "hashes": {
+            "sha-256": "ea3e6f036cd311529e7db785572b226bf2132d52954b8c8434f47a64f258951e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gept3dar.h"
+          },
+          "hashes": {
+            "sha-256": "11963b15d50ec9566dc080b10f82bdf8e5fe55d081ee76a157f0b23bda98e2cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbintar.h"
+          },
+          "hashes": {
+            "sha-256": "f9c4389bc867e640d62dc79fa0670cf940f63a7ef3dd09988c212f93dcd6ed51"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbsubeid.h"
+          },
+          "hashes": {
+            "sha-256": "0ed52c4795a9ae92472365160242348d6bce8aa4bab40adc63be7f88c46c774f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbaudita.h"
+          },
+          "hashes": {
+            "sha-256": "0bc090116d869419929a39f3dcebf7813fde6239491dae5540742e1c06add3b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acgidefs.h"
+          },
+          "hashes": {
+            "sha-256": "cec484381686160773fd745c1ede677e80dffe843e7e4d0810d7c6e07efec3a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbdimvar.h"
+          },
+          "hashes": {
+            "sha-256": "8822f11f05ac17e9aba0e8311829dbfcb827a2a2be53520b6822d7d78454771e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/aced-hatch.h"
+          },
+          "hashes": {
+            "sha-256": "bf51b1d8b3afbfec2fbb12e1aef83d5598256445759123db59882883c4cab3e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbsymtb.h"
+          },
+          "hashes": {
+            "sha-256": "cb8ebe8530a7cc8ff6467d6cbb4734c09683388f37b610f3338927f969ee806c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbdict.h"
+          },
+          "hashes": {
+            "sha-256": "fe6c1f70aadd95b28ddd423f14cd063c13efb39960f71d6965e765560ae25e2b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbdate.h"
+          },
+          "hashes": {
+            "sha-256": "0e54949cedf815caf098c2ceb0afa487132c4a6c2e670b4e074efdf3261aa086"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbbackground.h"
+          },
+          "hashes": {
+            "sha-256": "f0f1960feb64c2c69cc22fabe2e9896cd2c7b00c384b220358dffc9993d218aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acgienvironment.h"
+          },
+          "hashes": {
+            "sha-256": "24fab7fd7fc98e03ec3ebd5950628707b0f6098c49d7311c5c6da680eba9429d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbpl.h"
+          },
+          "hashes": {
+            "sha-256": "118c9796d0d74c3dd20ce4d9995cdd052637e25ffebc369d5b0108a3ecc47714"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbcurve.h"
+          },
+          "hashes": {
+            "sha-256": "ef9dcf02cb23fcb8bf8aed0387dc8ea22dd56fdeb5b06911b4095ab122abfd96"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/geplane.h"
+          },
+          "hashes": {
+            "sha-256": "ab742faa7efeac7cc6603a018808938407a1101f08d0b7d84c8d3f4c75981982"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/geplanar.h"
+          },
+          "hashes": {
+            "sha-256": "da7fbc744353b18f7a8df2ea5a1ef50801b1fcd4e7bb65b2dd65fda89c72832f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gesurf.h"
+          },
+          "hashes": {
+            "sha-256": "b408641a05b7c86a6733a8294beb079bffdb1adbf48448d511338bdb020977a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/geent3d.h"
+          },
+          "hashes": {
+            "sha-256": "b6dad0a56a24174ec3e5092397400b26a2a2c330edd3d1aa700d1ed07b9ce320"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/geent2d.h"
+          },
+          "hashes": {
+            "sha-256": "e6d678d1b0dc7e02cfc23d0e5f3cbc8587d8febc5911370090cb0b56bdcac78b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/geintrvl.h"
+          },
+          "hashes": {
+            "sha-256": "742a64436c2e68bb465100719ae07ea7c4078a458eac1fa6af11d3256b72825c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gegblnew.h"
+          },
+          "hashes": {
+            "sha-256": "404ec30ae94b2058958c68608755e55424ac810e0ec12a482bffe23fbdf20081"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gevc3dar.h"
+          },
+          "hashes": {
+            "sha-256": "de9d3c74afdf858c950559d58b43e0bfe5ec1cd9c85ec01d1d4ada78460b75f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gelnsg2d.h"
+          },
+          "hashes": {
+            "sha-256": "c4daed42522174a671bcfc7d86bca62318cd707b8c2259168aaf7c064f777d9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/geline2d.h"
+          },
+          "hashes": {
+            "sha-256": "0fb131564458a0de8a02a3ef7cf56151ee0483e226b8fa5cd93c6f1ff0a8b3d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gelent2d.h"
+          },
+          "hashes": {
+            "sha-256": "565f7dab4e26493d80cd3ca4c48f487295d9d0657cea29f043dab1192d88746c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gecurv2d.h"
+          },
+          "hashes": {
+            "sha-256": "c3b3a9645332d51a61b77dcc7dc900d6b19fd8babfd9f7da86fba93db0724be9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/geponc2d.h"
+          },
+          "hashes": {
+            "sha-256": "6f02f79015b4b67fa5c7ba6700dec7cdbccb123711c3b1d64b70f83ca207676b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gepent2d.h"
+          },
+          "hashes": {
+            "sha-256": "54037741a60353bc64349bab13cc812153e06ffbb1d8b52cce22644992861736"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gept2dar.h"
+          },
+          "hashes": {
+            "sha-256": "d1cee538e0d832946c84acea8b22bd86d9bf097368ce59b93683d386a32a0041"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gevc2dar.h"
+          },
+          "hashes": {
+            "sha-256": "7204c80c33d67b047282c90de8e8d08f1b189ff71088112db3dc5eb5d2decaff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gevptar.h"
+          },
+          "hashes": {
+            "sha-256": "a4942678307810aa36b1b17587ea3bb7e6f30ca3ba6745fb136d772fa0ffc370"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/geintarr.h"
+          },
+          "hashes": {
+            "sha-256": "ad67c1bb5822d49f555ba5fb9594c0494e1c70b00bc4b48f30a33feb9cffdb93"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gelnsg3d.h"
+          },
+          "hashes": {
+            "sha-256": "3695a4ddd34d45dce28e97b969e79e4fed59662abaf1fc139777da20cde388e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/geline3d.h"
+          },
+          "hashes": {
+            "sha-256": "cdafa154581871c7d39aac9dcf3321516350c534843d0b69483388867d98c7c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gelent3d.h"
+          },
+          "hashes": {
+            "sha-256": "fc16831811a946e78a1c695b9d38e2acbea99b51337ac70267538353633c9616"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gecurv3d.h"
+          },
+          "hashes": {
+            "sha-256": "e947fa10fcd93eba76d665663372089a540c84a2be626382279086945916c568"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/geponc3d.h"
+          },
+          "hashes": {
+            "sha-256": "42c9d242c0636c6201c4aed237909b3777bd1b9c7f1c881601ec52d655b8f7f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gepent3d.h"
+          },
+          "hashes": {
+            "sha-256": "7e73813bc5312b6cc8504d94d6878f88d2ef80ce6d0379d9cf5c2495698958c1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gearc2d.h"
+          },
+          "hashes": {
+            "sha-256": "7d1685260fbc2d1dce70320af02cc194427bfd9927591cecc67d6a6b9ad0dc05"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gearc3d.h"
+          },
+          "hashes": {
+            "sha-256": "5bf16bd24538ff42e618dadbb467f3630bad56fa59315006ab5908075075a8bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gemat3d.h"
+          },
+          "hashes": {
+            "sha-256": "527c3fad336758dd2f8956c3f79d0c7b409b96a1d3bc590d4d1cd5fc8d2ef394"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/gemat2d.h"
+          },
+          "hashes": {
+            "sha-256": "0a126a86127f8616d05559a583ddeea2b0da5b080fad9bf09064bd58953f8be1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acgistyleattributes.h"
+          },
+          "hashes": {
+            "sha-256": "b22fcc0900ca7db67c7a04d7ed0bbadf38bc301680d113d3657dbb3b3224d657"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acgilineattributes.h"
+          },
+          "hashes": {
+            "sha-256": "276ea0fb64e400daab3a346d23e57f74f48d8d539e69e561a03fd6ea8e03f74c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acgilineattrutils.h"
+          },
+          "hashes": {
+            "sha-256": "7345077e125090074f4d802dc987fa780e74e9a6f2795543a69f3e58e7a4b933"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acgiparameter.h"
+          },
+          "hashes": {
+            "sha-256": "8f4908439d876be59bf5014dc524872cd277007dfa182c18270cadf2748bb79d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/rxcopyonwriteobject.h"
+          },
+          "hashes": {
+            "sha-256": "b76f8db6aa919fac95a1174cdbb48a506054370ae089787228d9eb4210de4cf4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/pal/api/charset.h"
+          },
+          "hashes": {
+            "sha-256": "99df068bda6259e0d7bbbca0e51419c25b1b2939c9a0ccf2449210579b7eda46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/pal/api/fontpitchandfamily.h"
+          },
+          "hashes": {
+            "sha-256": "c2c1e6ea8ab8088cfbb8ef98bf550462d5ccb4228d16194c88fbbf1f7c738e32"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acgilighttraits.h"
+          },
+          "hashes": {
+            "sha-256": "0ec369324bb16a3b166936a53d4c58e782f655c0eb24a7e395f72987cd3c1299"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acgiviewport.h"
+          },
+          "hashes": {
+            "sha-256": "f1ea21a87413dbcb2a0bf5d38b62f28d15e8769676f20d08c3ca4ba0bf78884f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acgivisualstyle.h"
+          },
+          "hashes": {
+            "sha-256": "bd6a94cc9cf8355487b3a78e4d158b6892aec278a68846839d8a661cf4c75e43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/dbapserv.h"
+          },
+          "hashes": {
+            "sha-256": "64647fbce57af720611396ec5bf89e542379939cd7e9554ed2f64b9a24c1a5bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/pal/api/codepgid.h"
+          },
+          "hashes": {
+            "sha-256": "e9f2faa4bf7b5018dd4d4408b58df6e3176a35cf291b65e652c77031ad0197ca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/acdlflagbits.h"
+          },
+          "hashes": {
+            "sha-256": "42ade961486d57fdb48bae8be0deb89a686ec9b91b20933d9db8effae9d756bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/inetstrc.h"
+          },
+          "hashes": {
+            "sha-256": "95d3c114237625012f24284fa73eeaf31ae5a4edc5d407799d0ad0fc5a013aab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/pal/api/product_flavors.h"
+          },
+          "hashes": {
+            "sha-256": "d3662b5625845e3ff2f443b9dd7356538f0ee690d6fcccf8bd6e68b5886399d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/autodesk/objectarx_for_autocad_2022_win_64bit_dlm/inc/pal/api/aclocale.h"
+          },
+          "hashes": {
+            "sha-256": "b619ce599542dd94e80c7d1ae1e027591298355fbe64dff14d9fa6c97ce09940"
+          }
+        }
+      ]
+    }
+  ]
+}

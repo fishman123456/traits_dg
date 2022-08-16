@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Autodesk\ObjectARX_for_AutoCAD_2022_Win_64bit_dlm\inc\</FILEPATH>
+      <FILENAME>acgi.h</FILENAME>
+      <LINE>98</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "AcGiRequestScanLines::mEntityColor" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>AcGiRequestScanLines::{ctor}</FUNCTION>
+    <DECORATED>??0AcGiRequestScanLines@@QEAA@XZ</DECORATED>
+    <FUNCLINE>98</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>AcGiRequestScanLines::mEntityColor</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
